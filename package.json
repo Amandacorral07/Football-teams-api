@@ -1,13 +1,14 @@
 {
-  "name": "express-auth-mongoose-boilerplate",
+  "name": "football-teams-api",
   "version": "1.0.0",
-  "description": "Auth boilerplate for mongoose express using token auth",
+  "description": "A fun API server having to do with professional football teams (NFL)",
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node ./app/models/seed.js"
   },
-  "author": "Timm Schoenborn",
+  "author": "Amanda Corral",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",

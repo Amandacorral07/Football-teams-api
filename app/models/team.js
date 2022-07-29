@@ -49,7 +49,7 @@ teamSchema.virtual('fullTitle').get(function () {
 teamSchema.virtual('isGood').get(function () {
     if (this.numberOfWins < 5) {
         return "yeah, they're just terrible"
-    } else if (this.age >= 5 && this.age < 8) {
+    } else if (this.age >= 5 && this.age < 10) {
         return "not too bad, but not great"
     } else {
         return "only GOATS stand here"
