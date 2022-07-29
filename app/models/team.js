@@ -43,16 +43,16 @@ const teamSchema = new Schema(
 teamSchema.virtual('fullTitle').get(function () {
     // in here, we can do whatever javascripty things we want, to make sure we return some value that will be assigned to this virtual
     // fullTitle is going to combine the name and type to build a title
-    return `${this.name} the ${this.type}`
+    return `The ${this.name} football ${this.type}`
 })
 
-teamSchema.virtual('isGood').get(function () {
+teamSchema.virtual('isGoodOrBad').get(function () {
     if (this.numberOfWins < 5) {
         return "yeah, they're just terrible"
     } else if (this.age >= 5 && this.age < 10) {
-        return "not too bad, but not great"
+        return "not too bad, but not good"
     } else {
-        return "only GOATS stand here"
+        return "only GOATS reside here"
     }
 })
 
