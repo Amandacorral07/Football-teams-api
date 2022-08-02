@@ -9,15 +9,15 @@ const Team = require('./team')
 const db = require('../../config/db')
 
 const startTeams = [
-    { name: 'Tampa Bay Buccaneers', type: 'team', numberOfWins: 13, numberOfLoses: 4},
-    { name: 'Los Angeles Rams', type: 'team', numberOfWins: 12, numberOfLoses: 5},
-    { name: 'Dallas Cowboys', type: 'team', numberOfWins: 12, numberOfLoses: 5},
-    { name: 'Kansas City Chiefs', type: 'team', numberOfWins: 12, numberOfLoses: 5},
-    { name: 'Arizona Cardinals', type: 'team', numberOfWins: 11, numberOfLoses: 6},
-    { name: 'New England Patriots', type: 'team', numberOfWins: 10, numberOfLoses: 7},
-    { name: 'Pittsburgh Steelers', type: 'team', numberOfWins: 9, numberOfLoses: 7},
-    { name: 'Seattle Seahawks', type: 'team', numberOfWins: 7, numberOfLoses: 10},
-    { name: 'Detroit Lions', type: 'team', numberOfWins: 3, numberOfLoses: 14},
+    { name: 'Tampa Bay Buccaneers', type: 'team', numberOfWins: 13, numberOfLosses: 4},
+    { name: 'Los Angeles Rams', type: 'team', numberOfWins: 12, numberOfLosses: 5},
+    { name: 'Dallas Cowboys', type: 'team', numberOfWins: 12, numberOfLosses: 5},
+    { name: 'Kansas City Chiefs', type: 'team', numberOfWins: 12, numberOfLosses: 5},
+    { name: 'Arizona Cardinals', type: 'team', numberOfWins: 11, numberOfLosses: 6},
+    { name: 'New England Patriots', type: 'team', numberOfWins: 10, numberOfLosses: 7},
+    { name: 'Pittsburgh Steelers', type: 'team', numberOfWins: 9, numberOfLosses: 7},
+    { name: 'Seattle Seahawks', type: 'team', numberOfWins: 7, numberOfLosses: 10},
+    { name: 'Detroit Lions', type: 'team', numberOfWins: 3, numberOfLosses: 14},
 
    
 ]

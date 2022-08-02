@@ -21,7 +21,7 @@ const teamSchema = new Schema(
             type: Number,
             required: true
         },
-        numberOfLoses: {
+        numberOfLosses: {
             type: Number,
             required: true
         },
